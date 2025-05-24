@@ -1,0 +1,55 @@
+/* Google font applied globally */
+body {
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+  
+  /* Ensure there's no horizontal scroll */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Custom colors (optional) */
+  header {
+    background: linear-gradient(to right, #b15291, #fa97c0);
+  }
+  
+  section#about {
+  background-color: #ffffff;  
+}
+
+  
+  section#projects {
+   
+     background-image: url('https://wallpapers.com/images/hd/pink-porsche-g-t3-r-s-top-view-q7oxlajfgypcvd4s.jpg'); 
+  background-size: cover;                
+  background-position: center;            
+  background-repeat: no-repeat;    
+  }
+  
+  .custom-contact-bg {
+    background: linear-gradient(to right, #dfa2bf, #fa97dc);
+  }
+  
+  /* Smooth transition for hover effects */
+img, .card, a i {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Profile image hover animation */
+header img:hover {
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Project card hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact icons hover effect */
+#contact a:hover i {
+  transform: scale(1.3);
+  color: #920d66; /* Changes color on hover */
+}
